@@ -6,7 +6,7 @@ import axios from "axios";
 
 const App = () => {
   const [data, setData] = useState([]);
-  const apiUrl = "http://localhost:3000"; // Replace with your API endpoint
+  const apiUrl = "http://localhost:3000";
 
   useEffect(() => {
     fetchData();
